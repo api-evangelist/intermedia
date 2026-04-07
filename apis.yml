@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Communications
-  - Voice
-  - Video Conferencing
   - Cloud
+  - Communications
+  - Video Conferencing
+  - Voice
 url: >-
   https://raw.githubusercontent.com/api-search/intermedia/refs/heads/main/apis.yml
 created: '2024-11-13'
@@ -27,8 +27,8 @@ apis:
     humanURL: https://www.intermedia.com/integrations/apis
     tags:
       - Communications
-      - Voice
       - Video Conferencing
+      - Voice
     properties:
       - type: Documentation
         url: https://www.intermedia.com/integrations/apis
