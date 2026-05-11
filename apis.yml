@@ -105,6 +105,10 @@ common:
     url: https://developer.intermedia.net/
   - type: Support
     url: https://www.intermedia.com/support/
+  - type: Integrations
+    url: https://www.intermedia.com/integrations
+integrations:
+  - name: APIs
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
