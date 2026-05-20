@@ -97,6 +97,10 @@ apis:
       - type: Portal
         url: https://developer.intermedia.net/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/intermedia-net
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/intermedia
   - type: Website
     url: https://www.intermedia.com/
   - type: Documentation
