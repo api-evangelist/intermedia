@@ -97,6 +97,8 @@ apis:
       - type: Portal
         url: https://developer.intermedia.net/
 common:
+  - type: DomainSecurity
+    url: security/intermedia-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/intermedia-net
   - type: LinkedIn
@@ -111,6 +113,8 @@ common:
     url: https://www.intermedia.com/support/
   - type: Integrations
     url: https://www.intermedia.com/integrations
+  - url: https://blog.intermedia.com/feed/
+    type: Blog
 integrations:
   - name: APIs
 maintainers:

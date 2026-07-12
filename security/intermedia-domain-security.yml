@@ -1,0 +1,38 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.intermedia.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 16 04:01:37 2026 GMT
+  hsts: false
+- host: developer.intermedia.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 28 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: intermedia.com
+  dnssec: false
+  caa:
+  - 0 issue "symantec.com"
+  - 0 iodef "mailto:hostmaster@intermedia.net"
+  - 0 issue "amazon.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: intermedia.net
+  dnssec: false
+  caa:
+  - 0 issue "godaddy.com"
+  - 0 issue "geotrust.com"
+  - 0 issue "amazon.com"
+  - 0 iodef "mailto:ssl@intermedia.net"
+  - 0 issue "symantec.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
