@@ -1,4 +1,4 @@
-# Intermedia (intermedia)
+# Intermedia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,104 +66,107 @@
 
 Intermedia is a cloud communications company serving over 145,000 businesses with an AI-powered platform spanning voice, video conferencing, chat, SMS, contact center, business email, productivity, file sharing, security, and archiving. The Intermedia Extend API platform exposes Voice, Meeting, Analytics, Address Book, and Contact Center APIs for embedding communications into CRMs, ERPs, ticketing systems, and custom business applications.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/intermedia/refs/heads/main/apis.yml)
+**Areas:** Cloud · Communications · Contact Center · Video Conferencing · Voice
 
-## Scope
+## Intermedia on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Intermedia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/intermedia/](https://apis.io/providers/intermedia/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (5)
 
- - Cloud, Communications, Contact Center, Video Conferencing, Voice
+- [Intermedia Voice API](https://apis.io/apis/intermedia/voice-api/) — The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
+- [Intermedia Meeting API](https://apis.io/apis/intermedia/meeting-api/) — The Intermedia Meeting API enables integration of video conferencing capabilities, including starting and managing meetings from calendar platforms and…
+- [Intermedia Analytics API](https://apis.io/apis/intermedia/analytics-api/) — The Intermedia Analytics API provides communication insights and calling data that can be consolidated into reporting and business intelligence tools.
+- [Intermedia Address Book API](https://apis.io/apis/intermedia/address-book-api/) — The Intermedia Address Book API aggregates user contacts from multiple sources into a unified directory accessible across Intermedia applications.
+- [Intermedia Contact Center API](https://apis.io/apis/intermedia/contact-center-api/) — The Intermedia Contact Center API delivers customer experience features including screen pops, dashboards, and omni-channel outreach campaigns for contact…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-11-13
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Intermedia Voice API
-The Intermedia Voice API enables developers to embed voice calling capabilities into CRMs, ERPs, ticketing systems, and other business applications.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://www.intermedia.com/integrations/apis](https://www.intermedia.com/integrations/apis)
+- [Intermedia Domain Security](https://apis.io/security/intermedia/intermedia-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Communications, Voice
+Published plans, tiers and prices.
 
-#### Properties
+- [Intermedia Plans Pricing](https://apis.io/plans/intermedia/intermedia-plans-pricing/)
 
-- [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
+#### Rate limits (1)
 
-### Intermedia Meeting API
-The Intermedia Meeting API enables integration of video conferencing capabilities, including starting and managing meetings from calendar platforms and business applications.
+Published request limits.
 
-**Human URL:** [https://www.intermedia.com/integrations/apis](https://www.intermedia.com/integrations/apis)
+- [Intermedia Rate Limits](https://apis.io/rate-limits/intermedia/intermedia-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - Meetings, Video Conferencing
+What the API costs to run, by operation.
 
-#### Properties
+- [Intermedia Finops](https://apis.io/finops/intermedia/intermedia-finops/)
 
-- [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
+## Where to find this API
 
-### Intermedia Analytics API
-The Intermedia Analytics API provides communication insights and calling data that can be consolidated into reporting and business intelligence tools.
-
-**Human URL:** [https://www.intermedia.com/integrations/apis](https://www.intermedia.com/integrations/apis)
-
-#### Tags:
-
- - Analytics, Reporting
-
-#### Properties
-
-- [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
-
-### Intermedia Address Book API
-The Intermedia Address Book API aggregates user contacts from multiple sources into a unified directory accessible across Intermedia applications.
-
-**Human URL:** [https://www.intermedia.com/integrations/apis](https://www.intermedia.com/integrations/apis)
-
-#### Tags:
-
- - Contacts, Directory
-
-#### Properties
-
-- [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
-
-### Intermedia Contact Center API
-The Intermedia Contact Center API delivers customer experience features including screen pops, dashboards, and omni-channel outreach campaigns for contact center integrations.
-
-**Human URL:** [https://www.intermedia.com/integrations/apis](https://www.intermedia.com/integrations/apis)
-
-#### Tags:
-
- - Contact Center, Customer Experience
-
-#### Properties
-
-- [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.intermedia.com/)
 - [Documentation](https://www.intermedia.com/integrations/apis)
-- [Portal](https://developer.intermedia.net/)
 - [Support](https://www.intermedia.com/support/)
+- [Blog](https://blog.intermedia.com/feed/)
+- [GitHub](https://github.com/intermedia-net)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 13.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/intermedia/](https://apis.io/providers/intermedia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Intermedia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/intermedia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
